@@ -1,7 +1,6 @@
 import js from '@eslint/js';
 import globals from 'globals';
 import jest from 'eslint-plugin-jest';
-import globals from 'globals';
 import { defineConfig } from 'eslint/config';
 
 export default defineConfig([
