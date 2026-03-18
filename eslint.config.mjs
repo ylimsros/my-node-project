@@ -1,4 +1,4 @@
-import js from '@eslint/js';
+//import js from '@eslint/js';
 import jest from 'eslint-plugin-jest';
 import globals from 'globals';
 import { defineConfig } from 'eslint/config';
@@ -6,7 +6,7 @@ import { defineConfig } from 'eslint/config';
 export default defineConfig([
   {
     files: ['**/*.{js,mjs,cjs}'],
-    // plugins: { js },
+    plugins: { js },
     extends: ['js/recommended'],
     languageOptions: { globals: globals.browser },
   },
